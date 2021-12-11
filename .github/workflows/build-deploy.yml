@@ -25,5 +25,5 @@ jobs:
           password: ${{ secrets.FTP_PWD }}
           protocol: ftp
           port: 21
-          local-dir: "./dist"
-          server-dir: "./www-test"
+          local-dir: "./dist/"
+          server-dir: "www-test/"
