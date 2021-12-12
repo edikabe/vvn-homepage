@@ -2,6 +2,7 @@
   import Navbar from "./lib/Navbar.svelte"
   import logo from "./assets/vvn-logo.png"
   import Icon from "./lib/Icon.svelte"
+import TwitterTimelineWidget from "./lib/TwitterTimelineWidget.svelte"
 </script>
 
 <Navbar />
@@ -74,18 +75,7 @@
   </div>
   <hr class="separator" />
   <div class="container mx-auto w-80 mt-6">
-    <a
-      class="twitter-timeline"
-      data-lang="fr"
-      data-width="400"
-      data-height="500"
-      href="https://twitter.com/VeloVoleNantes?ref_src=twsrc%5Etfw"
-      >Actualités sur @VeloVoleNantes</a
-    >
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"></script>
+    <TwitterTimelineWidget/>
   </div>
 </main>
 <footer class="bg-gray-200 p-3 text-center text-white bottom-0 w-full">
