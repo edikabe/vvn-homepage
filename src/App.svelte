@@ -1,79 +1,106 @@
 <script lang="ts">
-  import Navbar from "./lib/Navbar.svelte";
+  import Navbar from "./lib/Navbar.svelte"
   import logo from "./assets/vvn-logo.png"
+  import Icon from "./lib/Icon.svelte"
 </script>
-<Navbar/>
-<main class="container mx-auto">
-  <img class="w-full h-auto lg:w-1/2" src={logo} alt="Logo Vélo volé Nantes" />
-  <p class="p-6 text-center">
-    Un v&eacute;lo vol&eacute; (ou trouv&eacute;) &agrave; #Nantes ?
-  </p>
-  <p>
-    <a
-      href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
-      >Formulaire pour le signaler</a
-    >
-  </p> 
-  <p>
-    <a
-      href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
-      >Base de donn&eacute;es photo</a
-    >
-  </p>
-  <p>
-    <a
-      href="http://velovolenantes.fr/data/velovolenantes_bilan_2020_CCBYSA3.0FR.pdf"
-      >Bilan 2020</a
-    >
-  </p>
-  <p>
-    Nous lan&ccedil;ons l'alerte & recherche pour vous !!
-  </p>
-  <p>
-    Abonnez-vous / Partagez sur Twitter et Facebook
-  </p>
-  <p>
-    <img src="https://velovolenantes.fr/84ZlKNyIrsW.png" alt="" />
-  </p>
-  <p>
-    <a
-      rel="noreferrer noopener"
-      href="https://twitter.com/velovolenantes/"
-      target="_blank">@velovolenantes</a
-    >
-  </p>
-  <p>
-    <img src="https://velovolenantes.fr/_Nw2lbNqxok.png" alt="" />
-  </p>
-  <p>
-    <a
-      rel="noreferrer noopener"
-      href="https://www.facebook.com/velovolenantes/"
-      target="_blank">velovolenantes</a
-    >
-  </p>
-</main>
 
-<style>
+<Navbar />
+<main class="container lg:w-1/2 mx-auto pb-16 pl-5 pr-5">
+  <img class="w-full h-auto mt-3" src={logo} alt="Logo Vélo volé Nantes" />
+  <div class="p-2 mt-3 text-justify">
+    <h3 class="font-bold">Notre mission</h3>
+    <p class="mt-3">
+      Un v&eacute;lo vol&eacute; (ou trouv&eacute;) &agrave; #Nantes et sa
+      métropole? <br />
+      Nous mettons à votre disposition un
+      <a
+        class="tool-link"
+        href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
+        >formulaire</a
+      >
+      pour le signaler. <br />
+      Suite à votre signalement, nous diffusons celui-ci sur les réseaux sociaux.
+    </p>
+    <p>Nous lan&ccedil;ons l'alerte & recherche pour vous !!</p>
+    <hr class="separator" />
+    <h3 class="font-bold">Nos outils</h3>
+    <p class="mt-3">
+      Vous pouvez consulter notre <a
+        class="tool-link"
+        href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
+        >base de donn&eacute;es de photos</a
+      >
+    </p>
+    <p class="mt-3">
+      Une fois les données de ces signalements compilées nous mettons à
+      disposition des bilans:
+    </p>
+    <ul class="list-disc ml-10 mt-2">
+      <li>
+        <a
+          class="tool-link"
+          href="http://velovolenantes.fr/data/velovolenantes_bilan_2020_CCBYSA3.0FR.pdf"
+          >Bilan 2020</a
+        >
+      </li>
+    </ul>
+
+    <hr class="separator" />
+    <h3 class="font-bold">Vous souhaitez nous aider?</h3>
+    <div>
+      Abonnez-vous / partagez sur: <br />
+      <div class="mt-3">
+        <a
+          rel="noreferrer noopener"
+          href="https://twitter.com/velovolenantes/"
+          target="_blank"
+          class="tool-link block"
+        >
+          <Icon name="twitter" width="30" height="30" />@velovolenantes</a
+        >
+        <a
+          rel="noreferrer noopener"
+          href="https://www.facebook.com/velovolenantes/"
+          target="_blank"
+          class="tool-link block"
+        >
+          <Icon name="facebook" width="30" height="30" />velovolenantes</a
+        >
+      </div>
+    </div>
+  </div>
+  <hr class="separator" />
+  <div class="container mx-auto w-80 mt-6">
+    <a
+      class="twitter-timeline"
+      data-lang="fr"
+      data-width="400"
+      data-height="500"
+      href="https://twitter.com/VeloVoleNantes?ref_src=twsrc%5Etfw"
+      >Actualités sur @VeloVoleNantes</a
+    >
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"></script>
+  </div>
+</main>
+<footer class="bg-gray-200 p-3 text-center text-white bottom-0 w-full">
+  <a href="https://velovolenantes.fr">#VéloVoléNantes</a>, 2021.
+</footer>
+
+<style lang="postcss">
   :root {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
-
-  main {
-    padding: 1em;
-    margin: 0 auto;
+  .separator {
+    @apply border-t-gray-300 border-dashed mt-3 mb-3;
   }
-
-  p {
-    max-width: 14rem;
-    margin: 1rem auto;
-    line-height: 1.35;
+  .tool-link {
+    @apply text-blue-700 font-bold;
   }
-
-  @media (min-width: 480px) {
-    p {
-      max-width: none;
-    }
+  .tool-link:hover {
+    @apply underline;
   }
 </style>
