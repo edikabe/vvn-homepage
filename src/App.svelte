@@ -31,7 +31,7 @@
         href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
         target="_blank"
         >base de donn&eacute;es de photos</a
-      >
+      >.
     </p>
     <p class="mt-3">
       Une fois les données de ces signalements compilées nous mettons à
