@@ -1,0 +1,157 @@
+	Type de signalement	Date	Heure	Rue	Ville	lat	lon	Type de vélo	Le vélo était-il stationné dans un lieu clos ?	Le vélo était-il attaché ?
+1	Vélo volé	06/11/2019	18:15	Rue du bois de hercé	Nantes	47.208844	 -1.591379	Vélo hollandais	Non	Non
+2	Vélo volé	06/11/2019	18:15	Rue du bois de hercé	Nantes	47.208844	 -1.591379	Vélo de transport (tri/bi porteur)	Non	Non
+3	Vélo volé	29/10/2019	07:30	Rue Pierre Etienne Flandin	Nantes	47.203476 	 -1.540264	VTT	Oui, un local collectif	Oui
+4	Vélo volé	29/11/2019		Boulevard Ernest Dalby 	Nantes	47.220923 	 -1.531466	Vélo de route	Oui, un local collectif	Oui
+5	Vélo volé	09/12/2019		Boulevard des poilus	Nantes	47.233688 	 -1.534674	VTC	Oui, un local collectif	Oui
+6	Vélo volé	05/11/2019		Allée de la Reine Margot	Nantes	47.22214 	 -1.548986	VTC	Oui, un local collectif	Non
+7	Vélo volé	05/11/2019		Allée de la Reine Margot	Nantes	47.22214 	 -1.548986	VTT	Oui, un local collectif	Non
+8	Vélo volé	23/01/2020	18:30	Rue Jean-Baptiste Canclaux	Rezé	47.17537229316596	 -1.5361698129460322	Vélo à assistance électrique	Oui, un local collectif	Non
+9	Vélo volé	27/01/2020	01:00	Rue des jardins 	Orvault	47.24749719607709	 -1.5993031841075347	VTC	Non	Non
+10	Vélo volé	28/01/2020	18:30	Place Jean Saillant 	Indre	47.19339895502271	 -1.6468825896766557	Vélo de route	Non	Oui
+11	Vélo volé	19/02/2020	22:00	Rue de richebourg	Nantes	47.218133 	 -1.543965	Vélo de route	Non	Oui
+12	Vélo volé	18/02/2020	22:00	Rue de richebourg	Nantes	47.218133 	 -1.543965	Vélo de route	Non	Oui
+13	Vélo volé	03/03/2020		Rue meuris	Nantes	47.208207 	 -1.573588	VTC	Non	Oui
+14	Vélo volé	01/03/2020	04:30	rue du pont sauvetout	Nantes	47.216981 	 -1.55787	VTT	Non	Non
+15	Vélo volé	21/02/2020		parking gare nord	Nantes	47.217761 	 -1.543096	VTC	Non	Oui
+16	Vélo volé	04/03/2020	21:30	Rue de Maryland 	Nantes	47.219269 	 -1.537845	Vélo hollandais	Non	Oui
+17	Vélo volé	13/05/2020		Boulevard de l'égalité	Nantes	47.212004 	 -1.586323	VTC	Oui, un local collectif	Non
+18	Vélo volé	16/05/2020	18:00	Rue Ferdinand Buisson	Nantes	47.204205 	 -1.581827	VTC	Oui, un local collectif	Non
+19	Vélo volé	18/05/2020		Rue moliere	Nantes	47.213826 	 -1.561979	VTC	Non	Oui
+20	Vélo volé	20/05/2020	16:30	Route de Vannes 	Nantes	47.238824 	 -1.588458	VTC	Non	Oui
+21	Vélo volé	22/05/2020	23:00	Boulevard Jules Verne	Nantes	47.24181 	 -1.528875	VTC	Non	Oui
+22	Vélo volé	24/05/2020	03:00	Rue Michel Columb	Nantes	47.206523 	 -1.553321	VTC	Oui, un local collectif	Non
+23	Vélo volé	24/05/2020	03:00	Rue Michel Columb	Nantes	47.206523 	 -1.553321	VTC	Oui, un local collectif	Non
+24	Vélo volé	24/05/2020	03:00	Rue Michel Columb	Nantes	47.206523 	 -1.553321	Vélo de route		
+25	Vélo volé	24/05/2020	03:00	Rue Michel Columb	Nantes	47.206523 	 -1.553321	Vélo de route	Oui, un local collectif	Non
+26	Vélo volé	24/05/2020	03:00	Rue Michel Columb	Nantes	47.206523 	 -1.553321	Vélo hollandais	Oui, un local collectif	Non
+27	Vélo volé	26/05/2020	13:00	Rue du Largeau	Saint-Sébastien-sur-Loire	47.19236877258303	 -1.5064907417821425	VTC	Non	Non
+28	Vélo volé	28/05/2020	14:30	Avenue de le libération 	Rezé	47.19159166397171	 -1.547959145493926	VTC	Non	Oui
+29	Vélo volé	28/05/2020	17:30	Rue Linné	Nantes	47.210889 	 -1.572204	VTT	Oui, un local collectif	Oui
+30	Vélo volé	31/05/2019		Allée d'Orléans	Nantes	47.216369 	 -1.556829	Vélo pliant	Oui, un local collectif	Oui
+31	Vélo volé	31/05/2020	05:15	Rue des Hauts Pavés	Nantes	47.229361 	 -1.572161	VTT	Oui, un local collectif	Non
+32	Vélo volé	31/05/2020	05:15	Rue des Hauts Pavés	Nantes	47.229361 	 -1.572161	VTC	Oui, un local collectif	Non
+33	Vélo volé	16/06/2020		Gare Sud de Nantes	Nantes	47.21615 	 -1.541669	VTC	Oui, un local collectif	Oui
+34	Vélo volé	17/06/2020	23:30	Rue Beaurepaire	Nantes	47.21689 	 -1.557685	Vélo à assistance électrique	Non	Oui
+35	Vélo volé	03/06/2020	11:00	Rue Marie Anne du Boccage	Nantes	47.216384 	 -1.568599	VTC	Non	Oui
+36	Vélo volé	24/06/2020	14:40	Place du petit bois	Nantes	47.214383 	 -1.57833	Vélo de transport (tri/bi porteur)	Non	Non
+37	Vélo volé	26/06/2020	02:00	Rue Denis Rivière 	Indre	47.19592681040095	 -1.651321378042163	VTT	Oui, un local collectif	
+38	Vélo volé	01/07/2020	13:00	Cours des 50 Otages	Nantes	47.218052 	 -1.557205	Vélo de route	Non	Oui
+39	Vélo volé	02/07/2020	11:30	Rue des Français Libres	Nantes	47.206887 	 -1.546175	VTT	Non	Oui
+40	Vélo volé	02/07/2020	16:15	Boulevard Babin chevaye	Nantes	47.205415 	 -1.553203	Vélo à assistance électrique	Non	Oui
+41	Vélo volé	06/07/2020	08:00	Rue Pierre Landais	Nantes	47.205626 	 -1.557752	VTC	Oui, un local collectif	Oui
+42	Vélo volé	21/05/2020	17:00	1 Place Alexis-Ricordeau	Nantes	47.212368 	 -1.554372	Vélo à assistance électrique	Non	Oui
+43	Vélo volé	20/07/2020	10:30	Rue de Briord	Nantes	47.217346 	 -1.553332	Vélo à assistance électrique	Non	Non
+44	Vélo volé	20/06/2020	01:12	Rue de Briord	Nantes	47.217346 	 -1.553332	Vélo de route	Non	Non
+45	Vélo volé	06/07/2020		Boulevard des poilus 	Nantes	47.233688 	 -1.534674	VTC	Oui, un local collectif	Oui
+46	Vélo volé	20/07/2020	10:00	Rue du Coteau 	Nantes	47.218563 	 -1.57951	Vélo de route	Oui, un local collectif	Non
+47	Vélo volé	27/07/2020	08:00	Place Clémence Lefeuvre 	Vertou	47.175602 	 -1.503968	VTC	Oui, un local collectif	Oui
+48	Vélo volé	27/07/2020	00:20	Boulevard Jean Monnet	Nantes	47.211151 	 -1.552495	Vélo à assistance électrique	Non	Oui
+49	Vélo volé	25/07/2020		Place Pirmil	Nantes	47.197732 	 -1.542474	VTC	Non	Oui
+50	Vélo volé	28/07/2020	08:00	Rue Talensac 	Nantes	47.22131 	 -1.556497	Vélo hollandais	Non	Oui
+51	Vélo volé	28/07/2020		Rue Talensac 	Nantes	47.22131 	 -1.556497	VTT	Non	Oui
+52	Vélo volé	29/07/2020		Boulevard Babin chevaye	Nantes	47.205415 	 -1.553203	VTT	Oui, un local collectif	Non
+53	Vélo volé	27/06/2020		Bas Chantenay	Nantes	47.198118910899574	 -1.5899310045236663	VTC	Non	Non
+54	Vélo volé	01/08/2020	13:00	route de vertou	Nantes	47.187243756786714	 -1.5290702114484462	VTC	Non	Non
+55	Vélo volé	04/08/2020	16:30	Rue de la ville en Pierre	Nantes	47.22499253055838	 -1.5283823709764202	Vélo à assistance électrique	Non	Oui
+56	Vélo volé	06/08/2020	00:45	Boulevard des Professeurs Sourdille	Nantes	47.234847185175525	 -1.5467984239603267	Vélo à assistance électrique	Non	Oui
+57	Vélo volé	06/08/2020	12:00	Place du Bouffay	Nantes	47.21477354191775	 -1.5532044510609901	VTC	Non	Oui
+58	Vélo volé	07/08/2018	16:30	Boulevard Général de Gaulle	Nantes	47.206455549455164	 -1.5389133375708828	VTT	Non	Oui
+59	Vélo volé	31/07/2020	12:00	Venelle Alexandra David-Neel	Nantes	47.24107439519917	 -1.5162746535419338	VTC	Oui, un local collectif	Oui
+60	Vélo volé	07/08/2020		Place de la petite Hollande	Nantes	47.2108781735833	 -1.5602259602000264	Vélo de route	Non	Oui
+61	Vélo volé	10/08/2020	15:00	Station Bouffay	Nantes	47.21477354191775	 -1.5532044510609901	VTT	Non	Oui
+62	Vélo volé	13/08/2020	09:00	Rue des Hauts-Pavés	Nantes	47.22594200802077	 -1.567995427791828	VTC	Non	Oui
+63	Vélo volé	15/08/2020	19:10	Rue de l'Héronnière	Nantes	47.21153396297926	 -1.5625998320030745	VTT	Non	Oui
+64	Vélo volé	15/08/2020	14:15	Rue Jenner	Nantes	47.20874251827671	 -1.5763725203686607	Vélo à assistance électrique	Oui, un local collectif	Oui
+65	Vélo volé	14/08/2020	09:45	Allé port maillard 	Nantes	47.21479926556352	 -1.5518587645513333	VTT	Non	Oui
+66	Vélo volé	15/10/2019		Rue du prinquiau	Nantes	47.212306279160465	 -1.5876525896761449	Vélo à assistance électrique	Non	Non
+67	Vélo volé	15/08/2020	20:30	Rue Louis Joxe & Allée de l'île Tabor	Nantes	47.20530939027588	 -1.546298347349461	Vélo de route	Non	Oui
+68	Vélo volé	18/08/2020	18:45	Pace du Bouffay	Nantes	47.21477354191775	 -1.5532044510609901	VTT	Non	Oui
+69	Vélo volé	21/08/2020	03:00	Rue Pierre Bérégovoy	Saint-Sébastien-sur-Loire	47.20499611209903	 -1.494968655272148	VTC	Oui, un local collectif	Oui
+70	Vélo volé	21/08/2020	18:30	Route de vannes	Nantes	47.24809524131223	 -1.6089288008105422	Vélo de route	Oui, un local privatif	Non
+71	Vélo volé	22/08/2020	22:00	Rue de la fraternité 	Saint-Jean-de-Boiseau	47.19381780321771	 -1.6986805896766448	Vélo de route	Oui, un local privatif	Non
+72	Vélo volé	22/08/2020	14:45	Rue Voltaire	Nantes	47.21230131539315	 -1.564810189676164	VTT	Non	Non
+73	Vélo volé	14/08/2020		Rue Anatole de Monzie	Nantes	47.203634666273295	 -1.5409400050225934	VTC	Oui, un local collectif	Oui
+74	Vélo volé	26/08/2020	09:20	Quai de la Fosse	Nantes	47.208675776991896	 -1.5685795951034305	Vélo à assistance électrique	Oui, un local collectif	Oui
+75	Vélo volé	29/08/2020	12:00	Rue de Nantes 	Sautron	47.26035084841642	 -1.6599417105887775	Vélo de route	Non	Non
+76	Vélo volé	01/09/2020	15:00	Rue du Jamet	Nantes	47.207744962487524	 -1.6049646031665992	Vélo pliant	Non	Oui
+77	Vélo volé	31/08/2020		Rue Vaucanson 	Nantes	47.213103525468256	 -1.5807738320030265	VTT	Oui, un local collectif	Non
+78	Vélo volé	23/06/2020		Rue Claude et Simone Millot	Nantes	47.260616266872354	 -1.5141111338576605	VTT	Oui, un local collectif	Oui
+79	Vélo volé	05/09/2020	07:00	Rue des Hauts-Pavés	Nantes	47.22594200802077	 -1.567995427791828	VTT	Oui, un local collectif	Non
+80	Vélo volé	30/08/2020	11:00	Rue Jean-Baptiste Corot	Nantes	47.22344459362406	 -1.5874623087338948	Vélo à assistance électrique	Oui, un local privatif	Non
+81	Vélo volé	04/09/2020		Rue Julien Videment	Nantes	47.20762787916024	 -1.5643880185128678	Vélo à assistance électrique	Non	Oui
+82	Vélo volé	01/09/2020	15:00	Quai Ernest Renaud	Nantes	47.2058913799581	 -1.573973962695694	Vélo à assistance électrique	Non	Oui
+83	Vélo volé	03/09/2020	14:00	Rue Frederic Cailliaud	Nantes	47.22014407658198	 -1.5415365859641688	VTC	Oui, un local privatif	Non
+84	Vélo volé	08/09/2020	20:00	Boulevard de la Fraternité	Nantes	47.21873170990007	 -1.5873665957427798	VTT	Non	Oui
+85	Vélo volé	08/09/2020	20:00	Boulevard de la Fraternité	Nantes	47.21873170990007	 -1.5873665957427798	VTT		
+86	Vélo volé	09/09/2020	15:16	Avenue Carnot 	Nantes	47.2145045791607	 -1.545738912944993	Vélo pliant	Non	Oui
+87	Vélo volé	10/09/2020	21:00	Place Ricordeau	Nantes	47.212382734185546	 -1.5538153441365934	VTC	Non	Oui
+88	Vélo volé	14/09/2020	15:50	Rue Georges Clémenceau 	Nantes	47.21932377047348	 -1.5467444185125543	VTT	Non	Oui
+89	Vélo volé	14/09/2020	18:30	Rue de la Gare	Rezé	47.19361022716113	 -1.5494564068787804	VTC	Oui, un local collectif	Oui
+90	Vélo volé	03/09/2020		Rue Joseph et Lucien Leclerc	Rezé	47.17979250311009	 -1.5468880492060455	VTC	Oui, un local privatif	Oui
+91	Vélo volé	15/09/2020	21:00	Rue Lambert	Nantes	47.21526356656725	 -1.5521393222244126	VTC	Non	Non
+92	Vélo volé	16/09/2020		Rue Dufour 	Nantes	47.22565070186136	 -1.5443883743295612	VTT	Non	Oui
+93	Vélo volé	18/09/2020	14:00	La Seilleraye	Carquefou	47.3008161825141	 -1.4208780542714177	Vélo à assistance électrique		
+94	Vélo volé	17/09/2020	23:00	Rue d'Allonville	Nantes	47.22161005436816	 -1.5360131854650267	Vélo hollandais	Non	Non
+95	Vélo volé	18/09/2020	02:00	Rue d'Allonville	Nantes	47.22161005436816	 -1.5360131854650267	Vélo à assistance électrique	Non	Oui
+96	Vélo volé	19/09/2020	23:00	Place St Pierre	Nantes	47.218364866252095	 -1.5511515687621131	Vélo de route	Non	Oui
+97	Vélo volé	12/09/2020	21:30	Place Delorme	Nantes	47.21505039161494	 -1.563629145493312	VTC	Non	Oui
+98	Vélo volé	20/09/2020	16:00	Boulevard Jules Verne 	Nantes	47.24188572156856	 -1.5288986766841792	VTC	Non	Oui
+99	Vélo volé	20/09/2020	19:00	Rue de Pontaven	Nantes	47.26619013507349	 -1.5775710515587227	Vélo à assistance électrique	Oui, un local collectif	Oui
+100	Vélo volé	20/09/2020	19:00	Rue de Pontaven	Nantes	47.26619013507349	 -1.5775710515587227	Vélo à assistance électrique	Oui, un local collectif	Oui
+101	Vélo volé	09/05/2020	14:10	Allée brancas	Nantes	47.21373675840289	 -1.5563885515601181	VTC	Non	Oui
+102	Vélo volé	21/09/2020	19:30	Boulevard Pierre de Coubertin	Nantes	47.22921823264192	 -1.588307051060615	VTC	Oui, un local collectif	Non
+103	Vélo volé	22/09/2020	22:00	Place Viarme	Nantes	47.22126007273489	 -1.563023779398301	Vélo de route	Non	Oui
+104	Vélo volé	22/09/2020	01:00	Rue des Olivettes	Nantes	47.21216192484335	 -1.5500895719749894	VTC	Oui, un local privatif	
+105	Vélo volé	24/09/2020	18:30	Parc Floral Roseraie	Nantes	47.26269057359064	 -1.5286377675446097	VTC	Non	Oui
+106	Vélo volé	24/09/2020	21:00	Paul Bellamy	Nantes	47.22652066164012	 -1.5602861436371085	Vélo de route	Oui, un local collectif	Oui
+107	Vélo volé	25/09/2020	12:00	Boulevard Babin Chevaye	Nantes	47.20548034677908	 -1.5527538881790646	Vélo à assistance électrique	Non	Oui
+108	Vélo volé	27/09/2020	00:01	Allée Flesselles	Nantes	47.21423740384694	 -1.5548302473492053	Vélo à assistance électrique	Non	Oui
+109	Vélo volé	27/09/2020	07:30	Rue Colonel Boutin	Nantes	47.223472547230415	 -1.5489218687619566	Vélo de route	Oui, un local privatif	Non
+110	Vélo volé	29/09/2020		Rue arthur III 	Nantes	47.20641086113886	 -1.5620420859645519	VTC	Non	Oui
+111	Vélo volé	26/09/2020		Machine de l’île, Boulevard Léon Bureau	Nantes	47.206189591572546	 -1.5646341185128763	Vélo de route	Non	Oui
+112	Vélo volé	02/09/2020	11:20	Place Paul Emile Ladmirault	Nantes	47.21366851412459	 -1.5645348626954723	Vélo à assistance électrique	Non	Oui
+113	Vélo volé	02/10/2020	11:30	Place Paul Emile Ladmirault	Nantes	47.21366851412459	 -1.5645348626954723	Vélo à assistance électrique	Non	Oui
+114	Vélo volé	30/09/2020		Gare Nord	Nantes	47.21777463048178	 -1.5430172240802438	VTC	Non	Non
+115	Vélo volé	14/09/2020	22:00	Rue de la Verrerie	Nantes	47.2102774690381	 -1.566974187820346	VTT	Non	Oui
+116	Vélo volé	05/10/2020	01:00	Rue Blanchet	Rezé	47.17240355837106	 -1.5410710050234455	VTT	Oui, un local privatif	Oui
+117	Vélo volé	06/10/2020	18:00	Rue Voltaire	Nantes	47.21206810131446	 -1.5654861063791852	VTC	Non	Oui
+118	Vélo volé	13/10/2020	19:00	Rue Morand	Nantes	47.23203270523422	 -1.5405292222239702	Vélo à assistance électrique	Non	Oui
+119	Vélo volé	15/10/2020	00:30	Rue Paul Bellamy	Nantes	47.22764268909488	 -1.5611873659078035	VTC	Oui, un local collectif	Oui
+120	Vélo volé	16/10/2020	17:00	Rue Henri Cochard	Nantes	47.223448834377564	 -1.5498894222242243	VTC	Non	Oui
+121	Vélo volé	19/10/2020	19:30	Gymnase Port-au-Blé	Rezé	47.19021738820145	 -1.55254338410907	VTC	Non	Oui
+122	Vélo volé	17/10/2020	12:00	Route de la Jonelière	Nantes	47.25259603201292	 -1.547624609232182	Vélo de route	Oui, un local privatif	Non
+123	Vélo volé	22/10/2020	09:00	Impasse Thérèse bertrand-fontaine	Nantes	47.26406063387252	 -1.5652492822512198	Vélo à assistance électrique	Non	Oui
+124	Vélo volé	22/10/2020	09:00	Impasse Thérèse bertrand-fontaine	Nantes	47.26406063387252	 -1.5652492822512198	Vélo à assistance électrique	Non	Oui
+125	Vélo volé	22/10/2020	19:30	François Mitterand 	Saint-Herblain	47.22219495827969	 -1.6384329510608016	VTT	Oui, un local collectif	Oui
+126	Vélo volé	19/10/2020		Place Victor Mangin	Nantes	47.20087928464125	 -1.5448614817538129	Vélo de route	Oui, un local privatif	Non
+127	Vélo volé	19/10/2020		Place Victor Mangin	Nantes	47.20087928464125	 -1.5448614817538129	Vélo de route	Oui, un local privatif	Non
+128	Vélo volé	29/09/2020	09:00	Rue des halles	Nantes	47.21576926660855	 -1.5559680915319674	VTT	Oui, un local collectif	Oui
+129	Vélo volé	10/10/2020	16:05	Allée Louis Jouvet	Nantes	47.23144548823537	 -1.586781820368109	VTT	Oui, un local collectif	Oui
+130	Vélo volé	30/10/2020	12:00	Rue d'Angoumois	Nantes	47.22422918500433	 -1.5671764320027566	VTT	Oui, un local privatif	Non
+154	Vélo volé	18/11/2020	10:00	Rue Jules Polo	Nantes	47.223298119927804	-1.5599872724737576	VTT	Oui, un local privatif	Non
+155	Vélo volé	10/11/2020	11:30	Rue des Grands Pâtis	Nantes	47.27190035625288	-1.5246327492035894	VTC	Non	Oui
+156	Vélo volé	21/11/2020	02:00	Rue de Rieux	Nantes	47.21104375535598	-1.5453076166568744	Vélo hollandais	Oui, un local privatif	
+158	Vélo volé	24/11/2020	23:00	Pierre Landais	Nantes	47.20545689029609	-1.5592266896763478	Vélo de route	Oui, un local privatif	Oui
+159	Vélo volé	24/11/2020	23:00	Pierre Landais	Nantes	47.20545689029609	-1.5592266896763478	Vélo de route	Oui, un local privatif	Oui
+160	Vélo volé	25/11/2020	02:00	Pierre Landais	Nantes	47.20545689029609	-1.5592266896763478	Vélo de route	Oui, un local privatif	Non
+161	Vélo volé	26/11/2020		Rue des Pavillons	Nantes	47.20449635620956	-1.594316558983914	VTT	Oui, un local privatif	Non
+162	Vélo volé	26/11/2020		1 rue des Pavillons	Nantes	47.20449635620956	-1.594316558983914	VTC	Oui, un local privatif	Non
+164	Vélo volé	27/10/2020	15:00	Rue Georges Lafont	Nantes	47.2372711256909	-1.5825449841078258	VTT	Oui, un local collectif	Non
+165	Vélo volé	27/10/2020	12:30	Rue Georges Lafont	Nantes	47.2372711256909	-1.5825449841078258	VTT	Oui, un local collectif	Non
+166	Vélo volé	30/11/2020	16:45	Rue Corneille	Nantes	47.21396812199888	-1.5624423853540617	VTC	Non	Oui
+167	Vélo volé	01/12/2020	14:00	Rue Talensac 	Nantes	47.22114618513316	-1.5559519195106533	Vélo à assistance électrique	Non	Oui
+168	Vélo volé	05/12/2020	10:00	Rue Pitre Chevalier	Nantes	47.22399610569483	-1.5504502957426318	Vélo à assistance électrique	Non	Oui
+169	Vélo volé	06/12/2020	05:00	Rue de la Blèterie	Nantes	47.215015228964745	-1.5549041724739985	VTC	Oui, un local collectif	Non
+170	Vélo volé	04/12/2020		Rue de la Bottière	Nantes	47.23869007339931	-1.5208265031657884	VTT		
+171	Vélo volé	11/12/2020		Rue Sarrazin	Nantes	47.22045783195711	-1.5605478994545081	VTT	Oui, un local collectif	Oui
+172	Vélo volé	05/06/2020		Avenue Pacaud	Nantes	47.22117935895622	-1.5373146859641509	VTC		
+173	Vélo volé	05/12/2020	17:05	Rue des États	Nantes	47.215862004293555	-1.5507725915319694	Vélo à assistance électrique	Non	Oui
+174	Vélo volé	14/12/2020		Mail Pablo Picasso	Nantes	47.215702253776456	-1.5353879534159507	Vélo de route	Oui, un local collectif	Oui
+175	Vélo volé	14/12/2020		Route de Saint Sébastien	Nantes	47.19962335522356	-1.5304728854656247	Vélo de route	Oui, un local privatif	Non
+176	Vélo volé	12/12/2020	14:00	Rue du Couëdic	Nantes	47.21413645450608	-1.55726698782025	Vélo de route	Non	Oui
+178	Vélo volé	15/12/2020	19:00	Allée Brancas	Nantes	47.21367845655748	-1.5565172975987889	Vélo à assistance électrique		Oui
+179	Vélo volé	15/12/2020	19:00	Allée Brancas	Nantes	47.21367845655748	-1.5565172975987889	Vélo à assistance électrique		Oui
+180	Vélo volé	11/12/2020	22:00	Rue Affre	Nantes	47.21549581671046	-1.557488230147085	VTC	Non	Non
+181	Vélo volé	18/12/2020	17:30	Avenue Willy Brandt	Rezé	47.17284451914691	-1.563078230148204	VTC	Oui, un local collectif	Oui
+182	Vélo volé	20/12/2020	15:45	Rue Hubert de la Brosse	Orvault	47.28359022463546	-1.6298907645495067	VTT	Oui, un local privatif	Non
