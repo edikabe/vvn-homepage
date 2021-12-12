@@ -16,6 +16,7 @@
       <a
         class="tool-link"
         href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
+        target="_blank"
         >formulaire</a
       >
       pour le signaler. <br />
@@ -28,6 +29,7 @@
       Vous pouvez consulter notre <a
         class="tool-link"
         href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
+        target="_blank"
         >base de donn&eacute;es de photos</a
       >
     </p>
@@ -40,6 +42,7 @@
         <a
           class="tool-link"
           href="http://velovolenantes.fr/data/velovolenantes_bilan_2020_CCBYSA3.0FR.pdf"
+          target="_blank"
           >Bilan 2020</a
         >
       </li>
