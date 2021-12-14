@@ -1,16 +1,22 @@
 <script lang="ts">
   import MobileMenuLink from "./MobileMenuLink.svelte"
   import NavbarLink from "./NavbarLink.svelte"
+  import { page } from "$app/stores"
 
   let mobileMenuOpened: boolean = false
+  page.subscribe(() => {
+    mobileMenuOpened = false
+  })
 </script>
 
 <nav class="bg-gray-700">
   <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
       <div class="">
-        <span class="font-bold text-white"
-          >#<span class="text-green-600">Vélo</span>VoléNantes</span
+        <a href="/" title="Accueil">
+          <span class="font-bold text-white"
+            >#<span class="text-green-600">Vélo</span>VoléNantes</span
+          ></a
         >
       </div>
       <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
@@ -61,19 +67,19 @@
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             <NavbarLink
+              target="_blank"
               href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
             >
               Formulaire de signalement
             </NavbarLink>
             <NavbarLink
+              target="_blank"
               href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
             >
               Photos
             </NavbarLink>
-            <NavbarLink
-              href="http://velovolenantes.fr/data/velovolenantes_bilan_2020_CCBYSA3.0FR.pdf"
-              >Bilan 2020</NavbarLink
-            >
+            <NavbarLink href="/stats">Statistiques</NavbarLink>
+            <NavbarLink href="/bilan-2020">Bilan 2020</NavbarLink>
           </div>
         </div>
       </div>
@@ -100,10 +106,8 @@
       >
         Photos
       </MobileMenuLink>
-      <MobileMenuLink
-              href="http://velovolenantes.fr/data/velovolenantes_bilan_2020_CCBYSA3.0FR.pdf"
-              >Bilan 2020</MobileMenuLink
-            >
+      <MobileMenuLink href="/stats">Statistiques</MobileMenuLink>
+      <MobileMenuLink href="/bilan-2020">Bilan 2020</MobileMenuLink>
     </div>
   </div>
 </nav>

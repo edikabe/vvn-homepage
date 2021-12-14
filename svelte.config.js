@@ -12,6 +12,6 @@ export default {
   ],
   kit: {
     adapter: adapter(),
-    target: '#svelte'
+    target: '#app'
   },
 };
