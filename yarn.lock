@@ -35,6 +35,11 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
+"@iarna/toml@^2.2.5":
+  version "2.2.5"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
+  integrity sha1-syNmyJtDxvjO+976x3i5yCjjuow=
+
 "@koa/router@^9.0.1":
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/@koa/router/-/router-9.4.0.tgz#734b64c0ae566eb5af752df71e4143edc4748e48"
@@ -75,6 +80,52 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-auto@next":
+  version "1.0.0-next.4"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/adapter-auto/-/adapter-auto-1.0.0-next.4.tgz#c87a05f110cf23062953269423be8f7809d84da1"
+  integrity sha1-yHoF8RDPIwYpUyaUI76PeAnYTaE=
+  dependencies:
+    "@sveltejs/adapter-cloudflare" "1.0.0-next.3"
+    "@sveltejs/adapter-netlify" "1.0.0-next.36"
+    "@sveltejs/adapter-vercel" "1.0.0-next.32"
+
+"@sveltejs/adapter-cloudflare@1.0.0-next.3":
+  version "1.0.0-next.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-1.0.0-next.3.tgz#2c89eb9baba40e1ce63e85412571cbd4e3ded0f4"
+  integrity sha1-LInrm6ukDhzmPoVBJXHL1OPe0PQ=
+  dependencies:
+    esbuild "^0.13.15"
+
+"@sveltejs/adapter-netlify@1.0.0-next.36":
+  version "1.0.0-next.36"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/adapter-netlify/-/adapter-netlify-1.0.0-next.36.tgz#a1037f67940fce59c49aa64854843d428f55c49c"
+  integrity sha1-oQN/Z5QPzlnEmqZIVIQ9Qo9VxJw=
+  dependencies:
+    "@iarna/toml" "^2.2.5"
+    esbuild "^0.13.15"
+
+"@sveltejs/adapter-static@next":
+  version "1.0.0-next.22"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.22.tgz#d615cf419c902aba8383c18fd839c7679437bf06"
+  integrity sha1-1hXPQZyQKrqDg8GP2DnHZ5Q3vwY=
+
+"@sveltejs/adapter-vercel@1.0.0-next.32":
+  version "1.0.0-next.32"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.32.tgz#90a8c1078a477a81d16cfd0efb27e5df2dc90189"
+  integrity sha1-kKjBB4pHeoHRbP0O+yfl3y3JAYk=
+  dependencies:
+    esbuild "^0.13.15"
+
+"@sveltejs/kit@next":
+  version "1.0.0-next.202"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@sveltejs/kit/-/kit-1.0.0-next.202.tgz#7438bc1b20c1acdd611588c3c1c1470959b2a251"
+  integrity sha1-dDi8GyDBrN1hFYjDwcFHCVmyolE=
+  dependencies:
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.30"
+    cheap-watch "^1.0.4"
+    sade "^1.7.4"
+    vite "^2.7.2"
+
 "@sveltejs/vite-plugin-svelte@^1.0.0-next.30":
   version "1.0.0-next.31"
   resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.31.tgz#5d0d5445ed85a1af613224eacff78c69f14c7fad"
@@ -102,6 +153,11 @@
     postcss-selector-parser "^6.0.4"
     quick-lru "^5.1.1"
 
+"@trysound/sax@0.2.0":
+  version "0.2.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
+  integrity sha1-zMqrdYr1Z2Hre/N69vA/Mm3XmK0=
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.8.tgz#c1e4e80d6f964fbecb3359c43bd48b40f7cadad9"
@@ -121,11 +177,6 @@
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
-
-"@tsconfig/svelte@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@tsconfig/svelte/-/svelte-2.0.1.tgz#0e8d7caa693e9b2afce5e622c0475bb0fd89c12c"
-  integrity sha512-aqkICXbM1oX5FfgZd2qSSAGdyo/NRxjWCamxoyi3T8iVQnzGge19HhDYzZ6NrVOW7bhcWNSq9XexWFtMzbB24A==
 
 "@types/node@*":
   version "16.11.12"
@@ -186,6 +237,11 @@ acorn@^8.4.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.6.0.tgz#e3692ba0eb1a0c83eaa4f37f5fa7368dd7142895"
   integrity sha512-U1riIR+lBSNi3IbxtaHOIKdH8sLFv3NYfNv8sg7ZsNhcfl4HF2++BfqqrNAxoCLQW1iiylOj76ecnaUxz+z9yw==
 
+alphanum-sort@^1.0.2:
+  version "1.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
+  integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
+
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-5.0.1.tgz#082cb2c89c9fe8659a311a53bd6a4dc5301db304"
@@ -235,10 +291,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@^10.2.5, autoprefixer@^10.4.0:
+autoprefixer@^10.2.5, autoprefixer@^10.3.7:
   version "10.4.0"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.0.tgz#c3577eb32a1079a440ec253e404eaf1eb21388c8"
-  integrity sha512-7FdJ1ONtwzV1G43GDD0kpVMn/qbiNqyOPMFTX5nRffI+7vgWoFEc6DcXOxHJxrWNDXrZh18eDsZjvZGUljSRGA==
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/autoprefixer/-/autoprefixer-10.4.0.tgz#c3577eb32a1079a440ec253e404eaf1eb21388c8"
+  integrity sha1-w1d+syoQeaRA7CU+QE6vHrITiMg=
   dependencies:
     browserslist "^4.17.5"
     caniuse-lite "^1.0.30001272"
@@ -257,6 +313,11 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+boolbase@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
+  integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -271,6 +332,17 @@ braces@^3.0.1, braces@~3.0.2:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
+
+browserslist@^4.0.0, browserslist@^4.16.0, browserslist@^4.16.6:
+  version "4.19.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/browserslist/-/browserslist-4.19.0.tgz#5f02742ac2b86dde56ae4cef7be2b003e47b1ee0"
+  integrity sha1-XwJ0KsK4bd5Wrkzve+KwA+R7HuA=
+  dependencies:
+    caniuse-lite "^1.0.30001286"
+    electron-to-chromium "^1.4.17"
+    escalade "^3.1.1"
+    node-releases "^2.0.1"
+    picocolors "^1.0.0"
 
 browserslist@^4.17.5:
   version "4.18.1"
@@ -311,7 +383,17 @@ camelcase-css@^2.0.1:
   resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
-caniuse-lite@^1.0.30001272, caniuse-lite@^1.0.30001280:
+caniuse-api@^3.0.0:
+  version "3.0.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
+  integrity sha1-Xk2Q4idJYdRikZl99Znj7QCO5MA=
+  dependencies:
+    browserslist "^4.0.0"
+    caniuse-lite "^1.0.0"
+    lodash.memoize "^4.1.2"
+    lodash.uniq "^4.5.0"
+
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001272, caniuse-lite@^1.0.30001280, caniuse-lite@^1.0.30001286:
   version "1.0.30001286"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001286.tgz#3e9debad420419618cfdf52dc9b6572b28a8fff6"
   integrity sha512-zaEMRH6xg8ESMi2eQ3R4eZ5qw/hJiVsO/HlLwniIwErij0JDr9P+8V4dtx1l+kLq6j3yy8l8W4fst1lBnat5wQ==
@@ -332,6 +414,11 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+cheap-watch@^1.0.4:
+  version "1.0.4"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/cheap-watch/-/cheap-watch-1.0.4.tgz#0bcb4a3a8fbd9d5327936493f6b56baa668d8fef"
+  integrity sha1-C8tKOo+9nVMnk2ST9rVrqmaNj+8=
 
 chokidar@^3.4.1, chokidar@^3.5.1, chokidar@^3.5.2:
   version "3.5.2"
@@ -402,10 +489,20 @@ color@^4.0.1:
     color-convert "^2.0.1"
     color-string "^1.9.0"
 
+colord@^2.9.1:
+  version "2.9.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/colord/-/colord-2.9.1.tgz#c961ea0efeb57c9f0f4834458f26cb9cc4a3f90e"
+  integrity sha1-yWHqDv61fJ8PSDRFjybLnMSj+Q4=
+
 commander@^6.0.0:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
+
+commander@^7.2.0:
+  version "7.2.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
+  integrity sha1-o2y1fQtQHOEI5NIFWaFQo5HZerc=
 
 commander@^8.0.0:
   version "8.3.0"
@@ -458,15 +555,103 @@ css-color-names@^0.0.4:
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
   integrity sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=
 
+css-declaration-sorter@^6.0.3:
+  version "6.1.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/css-declaration-sorter/-/css-declaration-sorter-6.1.3.tgz#e9852e4cf940ba79f509d9425b137d1f94438dc2"
+  integrity sha1-6YUuTPlAunn1CdlCWxN9H5RDjcI=
+  dependencies:
+    timsort "^0.3.0"
+
+css-select@^4.1.3:
+  version "4.1.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/css-select/-/css-select-4.1.3.tgz#a70440f70317f2669118ad74ff105e65849c7067"
+  integrity sha1-pwRA9wMX8maRGK10/xBeZYSccGc=
+  dependencies:
+    boolbase "^1.0.0"
+    css-what "^5.0.0"
+    domhandler "^4.2.0"
+    domutils "^2.6.0"
+    nth-check "^2.0.0"
+
+css-tree@^1.1.2, css-tree@^1.1.3:
+  version "1.1.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/css-tree/-/css-tree-1.1.3.tgz#eb4870fb6fd7707327ec95c2ff2ab09b5e8db91d"
+  integrity sha1-60hw+2/XcHMn7JXC/yqwm16NuR0=
+  dependencies:
+    mdn-data "2.0.14"
+    source-map "^0.6.1"
+
 css-unit-converter@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/css-unit-converter/-/css-unit-converter-1.1.2.tgz#4c77f5a1954e6dbff60695ecb214e3270436ab21"
   integrity sha512-IiJwMC8rdZE0+xiEZHeru6YoONC4rfPMqGm2W85jMIbkFvv5nFTwJVFHam2eFrN6txmoUYFAFXiv8ICVeTO0MA==
 
+css-what@^5.0.0:
+  version "5.1.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/css-what/-/css-what-5.1.0.tgz#3f7b707aadf633baf62c2ceb8579b545bb40f7fe"
+  integrity sha1-P3tweq32M7r2LCzrhXm1RbtA9/4=
+
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
+
+cssnano-preset-default@^5.1.8:
+  version "5.1.8"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/cssnano-preset-default/-/cssnano-preset-default-5.1.8.tgz#7525feb1b72f7b06e57f55064cbdae341d79dea2"
+  integrity sha1-dSX+sbcvewblf1UGTL2uNB153qI=
+  dependencies:
+    css-declaration-sorter "^6.0.3"
+    cssnano-utils "^2.0.1"
+    postcss-calc "^8.0.0"
+    postcss-colormin "^5.2.1"
+    postcss-convert-values "^5.0.2"
+    postcss-discard-comments "^5.0.1"
+    postcss-discard-duplicates "^5.0.1"
+    postcss-discard-empty "^5.0.1"
+    postcss-discard-overridden "^5.0.1"
+    postcss-merge-longhand "^5.0.4"
+    postcss-merge-rules "^5.0.3"
+    postcss-minify-font-values "^5.0.1"
+    postcss-minify-gradients "^5.0.3"
+    postcss-minify-params "^5.0.2"
+    postcss-minify-selectors "^5.1.0"
+    postcss-normalize-charset "^5.0.1"
+    postcss-normalize-display-values "^5.0.1"
+    postcss-normalize-positions "^5.0.1"
+    postcss-normalize-repeat-style "^5.0.1"
+    postcss-normalize-string "^5.0.1"
+    postcss-normalize-timing-functions "^5.0.1"
+    postcss-normalize-unicode "^5.0.1"
+    postcss-normalize-url "^5.0.3"
+    postcss-normalize-whitespace "^5.0.1"
+    postcss-ordered-values "^5.0.2"
+    postcss-reduce-initial "^5.0.2"
+    postcss-reduce-transforms "^5.0.1"
+    postcss-svgo "^5.0.3"
+    postcss-unique-selectors "^5.0.2"
+
+cssnano-utils@^2.0.1:
+  version "2.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/cssnano-utils/-/cssnano-utils-2.0.1.tgz#8660aa2b37ed869d2e2f22918196a9a8b6498ce2"
+  integrity sha1-hmCqKzfthp0uLyKRgZapqLZJjOI=
+
+cssnano@^5.0.8:
+  version "5.0.12"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/cssnano/-/cssnano-5.0.12.tgz#2c083a1c786fc9dc2d5522bd3c0e331b7cd302ab"
+  integrity sha1-LAg6HHhvydwtVSK9PA4zG3zTAqs=
+  dependencies:
+    cssnano-preset-default "^5.1.8"
+    is-resolvable "^1.1.0"
+    lilconfig "^2.0.3"
+    yaml "^1.10.2"
+
+csso@^4.2.0:
+  version "4.2.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/csso/-/csso-4.2.0.tgz#ea3a561346e8dc9f546d6febedd50187cf389529"
+  integrity sha1-6jpWE0bo3J9UbW/r7dUBh884lSk=
+  dependencies:
+    css-tree "^1.1.2"
 
 debug@^3.1.0, debug@^3.1.1:
   version "3.2.7"
@@ -541,6 +726,36 @@ dlv@^1.1.3:
   resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
   integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
 
+dom-serializer@^1.0.1:
+  version "1.3.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/dom-serializer/-/dom-serializer-1.3.2.tgz#6206437d32ceefaec7161803230c7a20bc1b4d91"
+  integrity sha1-YgZDfTLO767HFhgDIwx6ILwbTZE=
+  dependencies:
+    domelementtype "^2.0.1"
+    domhandler "^4.2.0"
+    entities "^2.0.0"
+
+domelementtype@^2.0.1, domelementtype@^2.2.0:
+  version "2.2.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/domelementtype/-/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
+  integrity sha1-mgtsJ4LtahxzI9QiZxg9+b2LHVc=
+
+domhandler@^4.2.0:
+  version "4.3.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/domhandler/-/domhandler-4.3.0.tgz#16c658c626cf966967e306f966b431f77d4a5626"
+  integrity sha1-FsZYxibPlmln4wb5ZrQx931KViY=
+  dependencies:
+    domelementtype "^2.2.0"
+
+domutils@^2.6.0:
+  version "2.8.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/domutils/-/domutils-2.8.0.tgz#4437def5db6e2d1f5d6ee859bd95ca7d02048135"
+  integrity sha1-RDfe9dtuLR9dbuhZvZXKfQIEgTU=
+  dependencies:
+    dom-serializer "^1.0.1"
+    domelementtype "^2.2.0"
+    domhandler "^4.2.0"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -551,6 +766,11 @@ electron-to-chromium@^1.3.896:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.16.tgz#38ddecc616385e6f101359d1b978c802664157d2"
   integrity sha512-BQb7FgYwnu6haWLU63/CdVW+9xhmHls3RCQUFiV4lvw3wimEHTVcUk2hkuZo76QhR8nnDdfZE7evJIZqijwPdA==
 
+electron-to-chromium@^1.4.17:
+  version "1.4.17"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/electron-to-chromium/-/electron-to-chromium-1.4.17.tgz#16ec40f61005582d5d41fac08400a254dccfb85f"
+  integrity sha1-FuxA9hAFWC1dQfrAhACiVNzPuF8=
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
@@ -560,6 +780,11 @@ encodeurl@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+
+entities@^2.0.0:
+  version "2.2.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
+  integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -658,10 +883,10 @@ esbuild-windows-arm64@0.13.15:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.13.15.tgz#482173070810df22a752c686509c370c3be3b3c3"
   integrity sha512-zzvyCVVpbwQQATaf3IG8mu1IwGEiDxKkYUdA4FpoCHi1KtPa13jeScYDjlW0Qh+ebWzpKfR2ZwvqAQkSWNcKjA==
 
-esbuild@^0.13.12:
+esbuild@^0.13.12, esbuild@^0.13.15:
   version "0.13.15"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.13.15.tgz#db56a88166ee373f87dbb2d8798ff449e0450cdf"
-  integrity sha512-raCxt02HBKv8RJxE8vkTSCXGIyKHdEdGfUmiYb8wnabnaEmHzyW7DCHb5tEN0xU8ryqg5xw54mcwnYkC4x3AIw==
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/esbuild/-/esbuild-0.13.15.tgz#db56a88166ee373f87dbb2d8798ff449e0450cdf"
+  integrity sha1-21aogWbuNz+H27LYeY/0SeBFDN8=
   optionalDependencies:
     esbuild-android-arm64 "0.13.15"
     esbuild-darwin-64 "0.13.15"
@@ -939,6 +1164,11 @@ inherits@2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
+is-absolute-url@^3.0.3:
+  version "3.0.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/is-absolute-url/-/is-absolute-url-3.0.3.tgz#96c6a22b6a23929b11ea0afb1836c36ad4a5d698"
+  integrity sha1-lsaiK2ojkpsR6gr7GDbDatSl1pg=
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
@@ -1025,6 +1255,11 @@ is-number@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+
+is-resolvable@^1.1.0:
+  version "1.1.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/is-resolvable/-/is-resolvable-1.1.0.tgz#fb18f87ce1feb925169c9a407c19318a3206ed88"
+  integrity sha1-+xj4fOH+uSUWnJpAfBkxijIG7Yg=
 
 is-wsl@^2.1.1:
   version "2.2.0"
@@ -1133,10 +1368,20 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
+lodash.memoize@^4.1.2:
+  version "4.1.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
+
 lodash.topath@^4.5.2:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.topath/-/lodash.topath-4.5.2.tgz#3616351f3bba61994a0931989660bd03254fd009"
   integrity sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=
+
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.14, lodash@^4.17.21:
   version "4.17.21"
@@ -1154,6 +1399,11 @@ make-error@^1.1.1:
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/make-error/-/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha512-s8UhlNe7vPKomQhC1qFelMokr/Sc3AgNbso3n74mVPA5LTZwkB9NlXf4XPamLxJE8h0gh73rM94xvwRT2CVInw==
+
+mdn-data@2.0.14:
+  version "2.0.14"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
+  integrity sha1-cRP8QoGRfWPOKbQ0RvcB5owlulA=
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -1266,6 +1516,18 @@ normalize-range@^0.1.2:
   resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
+normalize-url@^6.0.1:
+  version "6.1.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
+  integrity sha1-QNCIW1Nd7/4/MUe+yHfQX+TFZoo=
+
+nth-check@^2.0.0:
+  version "2.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/nth-check/-/nth-check-2.0.1.tgz#2efe162f5c3da06a28959fbd3db75dbeea9f0fc2"
+  integrity sha1-Lv4WL1w9oGoolZ+9PbddvuqfD8I=
+  dependencies:
+    boolbase "^1.0.0"
+
 object-hash@^2.1.1, object-hash@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-2.2.0.tgz#5ad518581eefc443bd763472b8ff2e9c2c0d54a5"
@@ -1374,6 +1636,51 @@ portfinder@^1.0.26:
     debug "^3.1.1"
     mkdirp "^0.5.5"
 
+postcss-calc@^8.0.0:
+  version "8.0.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-calc/-/postcss-calc-8.0.0.tgz#a05b87aacd132740a5db09462a3612453e5df90a"
+  integrity sha1-oFuHqs0TJ0Cl2wlGKjYSRT5d+Qo=
+  dependencies:
+    postcss-selector-parser "^6.0.2"
+    postcss-value-parser "^4.0.2"
+
+postcss-colormin@^5.2.1:
+  version "5.2.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-colormin/-/postcss-colormin-5.2.1.tgz#6e444a806fd3c578827dbad022762df19334414d"
+  integrity sha1-bkRKgG/TxXiCfbrQInYt8ZM0QU0=
+  dependencies:
+    browserslist "^4.16.6"
+    caniuse-api "^3.0.0"
+    colord "^2.9.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-convert-values@^5.0.2:
+  version "5.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-convert-values/-/postcss-convert-values-5.0.2.tgz#879b849dc3677c7d6bc94b6a2c1a3f0808798059"
+  integrity sha1-h5uEncNnfH1ryUtqLBo/CAh5gFk=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
+postcss-discard-comments@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-discard-comments/-/postcss-discard-comments-5.0.1.tgz#9eae4b747cf760d31f2447c27f0619d5718901fe"
+  integrity sha1-nq5LdHz3YNMfJEfCfwYZ1XGJAf4=
+
+postcss-discard-duplicates@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-discard-duplicates/-/postcss-discard-duplicates-5.0.1.tgz#68f7cc6458fe6bab2e46c9f55ae52869f680e66d"
+  integrity sha1-aPfMZFj+a6suRsn1WuUoafaA5m0=
+
+postcss-discard-empty@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-discard-empty/-/postcss-discard-empty-5.0.1.tgz#ee136c39e27d5d2ed4da0ee5ed02bc8a9f8bf6d8"
+  integrity sha1-7hNsOeJ9XS7U2g7l7QK8ip+L9tg=
+
+postcss-discard-overridden@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-discard-overridden/-/postcss-discard-overridden-5.0.1.tgz#454b41f707300b98109a75005ca4ab0ff2743ac6"
+  integrity sha1-RUtB9wcwC5gQmnUAXKSrD/J0OsY=
+
 postcss-js@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-3.0.3.tgz#2f0bd370a2e8599d45439f6970403b5873abda33"
@@ -1391,6 +1698,58 @@ postcss-load-config@^3.1.0:
     lilconfig "^2.0.3"
     yaml "^1.10.2"
 
+postcss-merge-longhand@^5.0.4:
+  version "5.0.4"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-merge-longhand/-/postcss-merge-longhand-5.0.4.tgz#41f4f3270282ea1a145ece078b7679f0cef21c32"
+  integrity sha1-QfTzJwKC6hoUXs4Hi3Z58M7yHDI=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+    stylehacks "^5.0.1"
+
+postcss-merge-rules@^5.0.3:
+  version "5.0.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-merge-rules/-/postcss-merge-rules-5.0.3.tgz#b5cae31f53129812a77e3eb1eeee448f8cf1a1db"
+  integrity sha1-tcrjH1MSmBKnfj6x7u5Ej4zxods=
+  dependencies:
+    browserslist "^4.16.6"
+    caniuse-api "^3.0.0"
+    cssnano-utils "^2.0.1"
+    postcss-selector-parser "^6.0.5"
+
+postcss-minify-font-values@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-minify-font-values/-/postcss-minify-font-values-5.0.1.tgz#a90cefbfdaa075bd3dbaa1b33588bb4dc268addf"
+  integrity sha1-qQzvv9qgdb09uqGzNYi7TcJord8=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
+postcss-minify-gradients@^5.0.3:
+  version "5.0.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-minify-gradients/-/postcss-minify-gradients-5.0.3.tgz#f970a11cc71e08e9095e78ec3a6b34b91c19550e"
+  integrity sha1-+XChHMceCOkJXnjsOms0uRwZVQ4=
+  dependencies:
+    colord "^2.9.1"
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-minify-params@^5.0.2:
+  version "5.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-minify-params/-/postcss-minify-params-5.0.2.tgz#1b644da903473fbbb18fbe07b8e239883684b85c"
+  integrity sha1-G2RNqQNHP7uxj74HuOI5iDaEuFw=
+  dependencies:
+    alphanum-sort "^1.0.2"
+    browserslist "^4.16.6"
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-minify-selectors@^5.1.0:
+  version "5.1.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-minify-selectors/-/postcss-minify-selectors-5.1.0.tgz#4385c845d3979ff160291774523ffa54eafd5a54"
+  integrity sha1-Q4XIRdOXn/FgKRd0Uj/6VOr9WlQ=
+  dependencies:
+    alphanum-sort "^1.0.2"
+    postcss-selector-parser "^6.0.5"
+
 postcss-nested@5.0.6:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.6.tgz#466343f7fc8d3d46af3e7dba3fcd47d052a945bc"
@@ -1405,7 +1764,98 @@ postcss-nesting@^7.0.1:
   dependencies:
     postcss "^7.0.2"
 
-postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.6:
+postcss-normalize-charset@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-charset/-/postcss-normalize-charset-5.0.1.tgz#121559d1bebc55ac8d24af37f67bd4da9efd91d0"
+  integrity sha1-EhVZ0b68VayNJK839nvU2p79kdA=
+
+postcss-normalize-display-values@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-display-values/-/postcss-normalize-display-values-5.0.1.tgz#62650b965981a955dffee83363453db82f6ad1fd"
+  integrity sha1-YmULllmBqVXf/ugzY0U9uC9q0f0=
+  dependencies:
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-positions@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-positions/-/postcss-normalize-positions-5.0.1.tgz#868f6af1795fdfa86fbbe960dceb47e5f9492fe5"
+  integrity sha1-ho9q8Xlf36hvu+lg3OtH5flJL+U=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-repeat-style@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-repeat-style/-/postcss-normalize-repeat-style-5.0.1.tgz#cbc0de1383b57f5bb61ddd6a84653b5e8665b2b5"
+  integrity sha1-y8DeE4O1f1u2Hd1qhGU7XoZlsrU=
+  dependencies:
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-string@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-string/-/postcss-normalize-string-5.0.1.tgz#d9eafaa4df78c7a3b973ae346ef0e47c554985b0"
+  integrity sha1-2er6pN94x6O5c640bvDkfFVJhbA=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-timing-functions@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-timing-functions/-/postcss-normalize-timing-functions-5.0.1.tgz#8ee41103b9130429c6cbba736932b75c5e2cb08c"
+  integrity sha1-juQRA7kTBCnGy7pzaTK3XF4ssIw=
+  dependencies:
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-unicode@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-unicode/-/postcss-normalize-unicode-5.0.1.tgz#82d672d648a411814aa5bf3ae565379ccd9f5e37"
+  integrity sha1-gtZy1kikEYFKpb865WU3nM2fXjc=
+  dependencies:
+    browserslist "^4.16.0"
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-url@^5.0.3:
+  version "5.0.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-url/-/postcss-normalize-url-5.0.3.tgz#42eca6ede57fe69075fab0f88ac8e48916ef931c"
+  integrity sha1-Quym7eV/5pB1+rD4isjkiRbvkxw=
+  dependencies:
+    is-absolute-url "^3.0.3"
+    normalize-url "^6.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-normalize-whitespace@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-normalize-whitespace/-/postcss-normalize-whitespace-5.0.1.tgz#b0b40b5bcac83585ff07ead2daf2dcfbeeef8e9a"
+  integrity sha1-sLQLW8rINYX/B+rS2vLc++7vjpo=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+
+postcss-ordered-values@^5.0.2:
+  version "5.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-ordered-values/-/postcss-ordered-values-5.0.2.tgz#1f351426977be00e0f765b3164ad753dac8ed044"
+  integrity sha1-HzUUJpd74A4PdlsxZK11PayO0EQ=
+  dependencies:
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-reduce-initial@^5.0.2:
+  version "5.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-reduce-initial/-/postcss-reduce-initial-5.0.2.tgz#fa424ce8aa88a89bc0b6d0f94871b24abe94c048"
+  integrity sha1-+kJM6KqIqJvAttD5SHGySr6UwEg=
+  dependencies:
+    browserslist "^4.16.6"
+    caniuse-api "^3.0.0"
+
+postcss-reduce-transforms@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-reduce-transforms/-/postcss-reduce-transforms-5.0.1.tgz#93c12f6a159474aa711d5269923e2383cedcf640"
+  integrity sha1-k8EvahWUdKpxHVJpkj4jg87c9kA=
+  dependencies:
+    cssnano-utils "^2.0.1"
+    postcss-value-parser "^4.1.0"
+
+postcss-selector-parser@^6.0.2, postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.5, postcss-selector-parser@^6.0.6:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.7.tgz#48404830a635113a71fd79397de8209ed05a66fc"
   integrity sha512-U+b/Deoi4I/UmE6KOVPpnhS7I7AYdKbhGcat+qTQ27gycvaACvNEw11ba6RrkwVmDVRW7sigWgLj4/KbbJjeDA==
@@ -1413,12 +1863,28 @@ postcss-selector-parser@^6.0.4, postcss-selector-parser@^6.0.6:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
+postcss-svgo@^5.0.3:
+  version "5.0.3"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-svgo/-/postcss-svgo-5.0.3.tgz#d945185756e5dfaae07f9edb0d3cae7ff79f9b30"
+  integrity sha1-2UUYV1bl36rgf57bDTyuf/efmzA=
+  dependencies:
+    postcss-value-parser "^4.1.0"
+    svgo "^2.7.0"
+
+postcss-unique-selectors@^5.0.2:
+  version "5.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss-unique-selectors/-/postcss-unique-selectors-5.0.2.tgz#5d6893daf534ae52626708e0d62250890108c0c1"
+  integrity sha1-XWiT2vU0rlJiZwjg1iJQiQEIwME=
+  dependencies:
+    alphanum-sort "^1.0.2"
+    postcss-selector-parser "^6.0.5"
+
 postcss-value-parser@^3.3.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
-postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
+postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
@@ -1431,10 +1897,19 @@ postcss@^7.0.2:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.6, postcss@^8.2.8, postcss@^8.3.11, postcss@^8.3.5, postcss@^8.4.4:
+postcss@^8.1.6, postcss@^8.2.8, postcss@^8.3.11, postcss@^8.3.5:
   version "8.4.4"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.4.tgz#d53d4ec6a75fd62557a66bb41978bf47ff0c2869"
   integrity sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==
+  dependencies:
+    nanoid "^3.1.30"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.1"
+
+postcss@^8.3.9:
+  version "8.4.5"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/postcss/-/postcss-8.4.5.tgz#bae665764dfd4c6fcc24dc0fdf7e7aa00cc77f95"
+  integrity sha1-uuZldk39TG/MJNwP3356oAzHf5U=
   dependencies:
     nanoid "^3.1.30"
     picocolors "^1.0.0"
@@ -1637,6 +2112,11 @@ sourcemap-codec@^1.3.0, sourcemap-codec@^1.4.4:
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+stable@^0.1.8:
+  version "0.1.8"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/stable/-/stable-0.1.8.tgz#836eb3c8382fe2936feaf544631017ce7d47a3cf"
+  integrity sha1-g26zyDgv4pNv6vVEYxAXzn1Ho88=
+
 "statuses@>= 1.4.0 < 2", "statuses@>= 1.5.0 < 2", statuses@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
@@ -1664,6 +2144,14 @@ strip-indent@^3.0.0:
   integrity sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==
   dependencies:
     min-indent "^1.0.0"
+
+stylehacks@^5.0.1:
+  version "5.0.1"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/stylehacks/-/stylehacks-5.0.1.tgz#323ec554198520986806388c7fdaebc38d2c06fb"
+  integrity sha1-Mj7FVBmFIJhoBjiMf9rrw40sBvs=
+  dependencies:
+    browserslist "^4.16.0"
+    postcss-selector-parser "^6.0.4"
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -1715,6 +2203,19 @@ svelte@^3.44.0:
   version "3.44.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.44.2.tgz#3e69be2598308dfc8354ba584cec54e648a50f7f"
   integrity sha512-jrZhZtmH3ZMweXg1Q15onb8QlWD+a5T5Oca4C1jYvSURp2oD35h4A5TV6t6MEa93K4LlX6BkafZPdQoFjw/ylA==
+
+svgo@^2.7.0:
+  version "2.8.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/svgo/-/svgo-2.8.0.tgz#4ff80cce6710dc2795f0c7c74101e6764cfccd24"
+  integrity sha1-T/gMzmcQ3CeV8MfHQQHmdkz8zSQ=
+  dependencies:
+    "@trysound/sax" "0.2.0"
+    commander "^7.2.0"
+    css-select "^4.1.3"
+    css-tree "^1.1.3"
+    csso "^4.2.0"
+    picocolors "^1.0.0"
+    stable "^0.1.8"
 
 tailwind-config-viewer@^1.5.1:
   version "1.6.2"
@@ -1768,10 +2269,10 @@ tailwindcss@^2.0.4:
     resolve "^1.20.0"
     tmp "^0.2.1"
 
-tailwindcss@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.0.1.tgz#bef72ff45d5cfed79bb648d30da952e521e98da4"
-  integrity sha512-EVDXVZkcueZ77/zfOJw7XkzCuxe5TCiT/S9pw9P183oRzSuwMZ7WO+W/L76jbJQA5qxGeUBJOVOLVBuAUfeZ3g==
+tailwindcss@^3.0.0:
+  version "3.0.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/tailwindcss/-/tailwindcss-3.0.2.tgz#9eea4c6dbe8d6d2c11363d313f4a4eba2baeb652"
+  integrity sha1-nupMbb6NbSwRNj0xP0pOuiuutlI=
   dependencies:
     arg "^5.0.1"
     chalk "^4.1.2"
@@ -1794,6 +2295,11 @@ tailwindcss@^3.0.1:
     quick-lru "^5.1.1"
     resolve "^1.20.0"
     tmp "^0.2.1"
+
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+  integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
 tmp@^0.2.1:
   version "0.2.1"
@@ -1890,6 +2396,18 @@ vite@^2.1.1, vite@^2.7.0:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.7.1.tgz#be50ad13214290ecbebbe5ad389ed423cb5f137e"
   integrity sha512-TDXXhcu5lyQ6uosK4ZWaOyB4VzOiizk0biitRzDzaEtgSUi8rVYPc4k1xgOjLSf0OuceDJmojFKXHOX9DB1WuQ==
+  dependencies:
+    esbuild "^0.13.12"
+    postcss "^8.3.11"
+    resolve "^1.20.0"
+    rollup "^2.59.0"
+  optionalDependencies:
+    fsevents "~2.3.2"
+
+vite@^2.7.2:
+  version "2.7.2"
+  resolved "https://artifact.socrate.vsct.fr/artifactory/api/npm/all-npm/vite/-/vite-2.7.2.tgz#f9937114cf2e730a7e2e4c4f8c26ed0ed1c3bb6b"
+  integrity sha1-+ZNxFM8ucwp+LkxPjCbtDtHDu2s=
   dependencies:
     esbuild "^0.13.12"
     postcss "^8.3.11"

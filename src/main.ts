@@ -1,4 +1,4 @@
-import App from './App.svelte'
+import App from './routes/index.svelte'
 import './main.css'
 
 const app = new App({

@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Navbar from "./lib/Navbar.svelte"
-  import logo from "./assets/vvn-logo.png"
-  import Icon from "./lib/Icon.svelte"
-import TwitterTimelineWidget from "./lib/TwitterTimelineWidget.svelte"
+  import Navbar from "../lib/Navbar.svelte"
+  import logo from "../assets/vvn-logo.png"
+  import Icon from "../lib/Icon.svelte"
+import TwitterTimelineWidget from "../lib/TwitterTimelineWidget.svelte"
 </script>
 
 <Navbar />
