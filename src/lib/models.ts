@@ -2,6 +2,7 @@ export interface Signalement {
   typeSignalement: string;
   couleurVelo: string;
   marqueVelo: string;
+  typeVelo: string;
   dateVol: string;
 } 
 
@@ -14,6 +15,7 @@ export function mapSignalements(source: any[]): Signalement[] {
     typeSignalement: s["type_signalement"],
     couleurVelo: s["couleur_velo"],
     marqueVelo: s["marque_velo"],
-    dateVol: s["date_du_vol"]
+    dateVol: s["date_du_vol"],
+    typeVelo: s["type_velo"]
   }))
 } 
