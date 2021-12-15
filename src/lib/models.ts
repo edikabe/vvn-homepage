@@ -5,6 +5,10 @@ export interface Signalement {
   dateVol: string;
 } 
 
+export interface ExportInfo {
+  creation: number;
+}
+
 export function mapSignalements(source: any[]): Signalement[] {
   return source.map(s => ({
     typeSignalement: s["type_signalement"],

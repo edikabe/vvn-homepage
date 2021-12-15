@@ -11,3 +11,4 @@ node_modules
 !.env.example
 static/data/stolen_bikes.json
 static/data/found_bikes.json
+static/data/export-info.json
