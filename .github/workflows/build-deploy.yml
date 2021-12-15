@@ -19,6 +19,7 @@ jobs:
         run: npm i -g yarn && yarn install && yarn build
       - name: Deploy on ftp
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        continue-on-error: true        
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}

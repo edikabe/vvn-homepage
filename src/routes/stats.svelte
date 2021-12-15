@@ -7,8 +7,6 @@
   let signalements: Signalement[]
   let signalementsParMois: Promise<any> = Promise.resolve()
 
-  let plop: Promise<string> = Promise.resolve("")
-
   function getMonth(s: Signalement): string {
     return s.dateVol.substring(3)
   }
@@ -17,7 +15,6 @@
     const response = await fetch("/data/stolen_bikes.json")
     signalements = mapSignalements(await response.json())
     const theftsByMonth = countBy(getMonth)(signalements)
-    plop = Promise.resolve("kapoueeee")
     signalementsParMois = Promise.resolve({
       title: "Signalements sur 2021",
       labels: Object.keys(theftsByMonth),
@@ -37,7 +34,7 @@
       <div class="p-3 border-blue-200 bg-slate-100">chargement...</div>
     {:then value}
       <div class="rounded-sm border-red-300 bg-slate-100 p-2">
-        <h1 class="text-gray-700">Signalements sur 2021</h1>
+        <h1 class="text-gray-700">Signalements de vol sur 2021</h1>
         <Chart data={value} type="bar" />
       </div>
     {/await}
