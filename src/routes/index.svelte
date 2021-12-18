@@ -1,7 +1,7 @@
 <script lang="ts">
   import logo from "../assets/vvn-logo.png"
   import Icon from "../lib/Icon.svelte"
-  import TwitterTimelineWidget from "../lib/TwitterTimelineWidget.svelte"
+  import TwitterTimelineWidget from "../lib/components/TwitterTimelineWidget.svelte"
 </script>
 <svelte:head>
   <title>VéloVoléNantes - Accueil</title>

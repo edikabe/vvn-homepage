@@ -1,7 +1,8 @@
 <script lang="ts">
   import { ExportInfo, mapSignalements, Signalement } from "../lib/models"
-  import SignalementsParMois from "$lib/charts/signalements-par-mois.svelte"
-  import RepartitionVolsParTypeVelo from "$lib/charts/repartition-vols-par-type-velo.svelte"
+  import SignalementsParMois from "$lib/components/charts/signalements-par-mois.svelte"
+  import RepartitionVolsParTypeVelo from "$lib/components/charts/repartition-vols-par-type-velo.svelte"
+  import LoadingActivity from "$lib/components/LoadingActivity.svelte"
 
   async function fetchStolenBikesData(): Promise<Signalement[]> {
     const response = await fetch("/data/stolen_bikes.json")
@@ -24,7 +25,7 @@
   <div class="p-3">
     <div class="mt-2">
       {#await signalementVols}
-        <div class="p-3 border-blue-200 bg-slate-100">chargement...</div>
+        <LoadingActivity />
       {:then value}
         <SignalementsParMois data={value} />
       {/await}
@@ -32,7 +33,7 @@
 
     <div class="mt-2">
       {#await signalementVols}
-        <div class="p-3 border-blue-200 bg-slate-100">chargement...</div>
+        <LoadingActivity />
       {:then value}
         <RepartitionVolsParTypeVelo data={value} />
       {/await}

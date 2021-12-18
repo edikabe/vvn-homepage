@@ -1,18 +1,15 @@
 <script lang="ts">
   import { monthYearLiteralToMonthName } from "$lib/date-helpers"
   import type { Signalement } from "$lib/models"
-  import { worstMonth } from "$lib/stats-helpers"
-  import { countBy, maxBy, reduce, mean } from "ramda"
+  import { worstMonth, countByMonth } from "$lib/stats-helpers"
+  import { mean } from "ramda"
   import Chart from "svelte-frappe-charts"
 
   export let data: Signalement[] = []
-  const theftsByMonth = countBy((s: Signalement) => s.dateVol.substring(3))(
-    data
-  )
+  const theftsByMonth = countByMonth(data);
   const monthLabels = Object.keys(theftsByMonth)
   const monthValues = Object.values(theftsByMonth)
   const worstMonthRes = worstMonth(data)
-  console.log(worstMonthRes)
   const meanByMonth = Math.floor(mean(monthValues))
   const accumulatedThefts = Object.values(theftsByMonth).reduce((acc, val) => {
     let toPush = acc.length ? acc[acc.length - 1] + val : val
