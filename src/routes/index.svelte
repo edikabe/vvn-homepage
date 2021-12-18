@@ -1,6 +1,6 @@
 <script lang="ts">
   import logo from "../assets/vvn-logo.png"
-  import Icon from "../lib/Icon.svelte"
+  import Icon from "../lib/components/Icon.svelte"
   import TwitterTimelineWidget from "../lib/components/TwitterTimelineWidget.svelte"
 </script>
 <svelte:head>
