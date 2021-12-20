@@ -67,8 +67,7 @@
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
             <NavbarLink
-              target="_blank"
-              href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
+              href="/form"
             >
               Formulaire de signalement
             </NavbarLink>
@@ -97,11 +96,12 @@
     <div class="px-2 pt-2 pb-3 space-y-1">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
       <MobileMenuLink
-        href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
+        href="/form"
       >
         Formulaire de signalement
       </MobileMenuLink>
       <MobileMenuLink
+        target="_blank"
         href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
       >
         Photos
