@@ -1,12 +1,12 @@
 <script lang="ts">
-  import MobileMenuLink from "./MobileMenuLink.svelte"
-  import NavbarLink from "./NavbarLink.svelte"
-  import { page } from "$app/stores"
+  import MobileMenuLink from "./MobileMenuLink.svelte";
+  import NavbarLink from "./NavbarLink.svelte";
+  import { page } from "$app/stores";
 
-  let mobileMenuOpened: boolean = false
+  let mobileMenuOpened: boolean = false;
   page.subscribe(() => {
-    mobileMenuOpened = false
-  })
+    mobileMenuOpened = false;
+  });
 </script>
 
 <nav class="bg-gray-700">
@@ -66,11 +66,7 @@
       >
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
-            <NavbarLink
-              href="/form"
-            >
-              Formulaire de signalement
-            </NavbarLink>
+            <NavbarLink href="/signaler">Formulaire de signalement</NavbarLink>
             <NavbarLink
               target="_blank"
               href="https://www.facebook.com/pg/velovolenantes/photos/?tab=album&album_id=111364296977406"
@@ -95,9 +91,7 @@
   >
     <div class="px-2 pt-2 pb-3 space-y-1">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <MobileMenuLink
-        href="/form"
-      >
+      <MobileMenuLink href="/signaler">
         Formulaire de signalement
       </MobileMenuLink>
       <MobileMenuLink
