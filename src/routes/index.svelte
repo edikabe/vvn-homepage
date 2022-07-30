@@ -1,8 +1,9 @@
 <script lang="ts">
-  import logo from "../assets/vvn-logo.png"
-  import Icon from "../lib/components/Icon.svelte"
-  import TwitterTimelineWidget from "../lib/components/TwitterTimelineWidget.svelte"
+  import logo from "../assets/vvn-logo.png";
+  import Icon from "../lib/components/Icon.svelte";
+  import TwitterTimelineWidget from "../lib/components/TwitterTimelineWidget.svelte";
 </script>
+
 <svelte:head>
   <title>VéloVoléNantes - Accueil</title>
 </svelte:head>
@@ -11,14 +12,9 @@
   <div class="p-2 mt-3 text-justify">
     <h3 class="font-bold">Notre mission</h3>
     <p class="mt-3">
-      Un vélo volé (ou trouvé) à #Nantes et sa
-      métropole? <br />
+      Un vélo volé (ou trouvé) à #Nantes et sa métropole? <br />
       Nous mettons à votre disposition un
-      <a
-        class="tool-link"
-        href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572"
-        target="_blank">formulaire</a
-      >
+      <a class="tool-link" href="./signaler" target="_blank">formulaire</a>
       pour le signaler. <br />
       Suite à votre signalement, nous diffusons celui-ci sur les réseaux sociaux.
     </p>
@@ -32,6 +28,7 @@
         target="_blank">base de données de photos</a
       >.
     </p>
+    <!--
     <p class="mt-3">
       Une fois les données de ces signalements compilées nous mettons à
       disposition des bilans:
@@ -45,6 +42,7 @@
         >
       </li>
     </ul>
+    -->
 
     <hr class="separator" />
     <h3 class="font-bold">Vous souhaitez nous aider?</h3>
@@ -75,6 +73,7 @@
     <TwitterTimelineWidget />
   </div>
 </main>
+
 <style lang="postcss">
   :root {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

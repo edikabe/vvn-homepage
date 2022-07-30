@@ -74,7 +74,7 @@
               Photos
             </NavbarLink>
             <NavbarLink href="/stats">Statistiques</NavbarLink>
-            <NavbarLink href="/bilan-2020">Bilan 2020</NavbarLink>
+            <!--<NavbarLink href="/bilan-2020">Bilan 2020</NavbarLink>-->
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
         Photos
       </MobileMenuLink>
       <MobileMenuLink href="/stats">Statistiques</MobileMenuLink>
-      <MobileMenuLink href="/bilan-2020">Bilan 2020</MobileMenuLink>
+      <!--<MobileMenuLink href="/bilan-2020">Bilan 2020</MobileMenuLink>-->
     </div>
   </div>
 </nav>
