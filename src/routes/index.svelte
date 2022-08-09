@@ -14,7 +14,7 @@
     <p class="mt-3">
       Un vélo volé (ou trouvé) à #Nantes et sa métropole? <br />
       Nous mettons à votre disposition un
-      <a class="tool-link" href="./signaler" target="_blank">formulaire</a>
+      <a class="tool-link" href="https://framaforms.org/velo-vole-ou-trouve-a-nantes-metropole-1573917572" target="_blank">formulaire</a>
       pour le signaler. <br />
       Suite à votre signalement, nous diffusons celui-ci sur les réseaux sociaux.
     </p>
